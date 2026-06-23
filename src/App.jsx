@@ -361,7 +361,6 @@ function EmployeeView({ user, onLogout }) {
 
       <div style={{ background:"#fff", borderRadius:14, border:"1px solid #EAECF0", padding:"1.75rem", marginBottom:"2rem" }}>
         {err && <div style={S.error}>{err}</div>}
-        {debugInfo && <div style={S.success}>{debugInfo}</div>}
         {msg && <div style={S.success}>{msg}</div>}
 
         <div style={S.row}>
